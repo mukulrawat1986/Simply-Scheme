@@ -1,0 +1,6 @@
+-> Scheme is an interactive programming language. You type a request to Scheme, then Scheme prints the answer and you get the prompt.
+
+-> Whenever something you type to Scheme is enclosed in paranthesis, it indicates a request to carry out a procedure. The first thing inside the procedure indicates the procedure to use; the others are arguments, i.e. values that are used as data by the proceure.
+
+-> When we first start up Scheme, it knows 100-200 procedures. These are called primitive procedures. Programming in Scheme means defining new procedures called Compound procedures.
+ 
