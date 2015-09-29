@@ -1,0 +1,22 @@
+-> A Scheme program consists of one or more procedures. A procedure is a description of the process by which a computer can work out some result that we want.
+When we use define, we aren't interested in the returned value, but rather the fact that Scheme remembers the new definition for later use.
+
+-> This is the definition of a procedure called square that takes one argument, a number, and it returns the square of that number.
+
+-> The procedure definition has 4 parts. The first is the word define, which indicates that we are defining something. The second and third come together inside paranthesis: the name that you want to give the procedure and the name(s), you want to use for its argument(s). The last part is the body: an expression whose value provides the functions return values.
+
+-> Special forms:
+	-> Define is a special form, an exception to the evaluation rule.
+	-> Usually an expression represents a procedure invocation.
+	-> The general rule is that scheme first evaluates all the subexpression	   and then applies the resulting procedure to the resulting argument
+	   values.
+	-> The specialness of special form is that Scheme doesn't evaluate all
+	   the subexpressions, instead each special form has its own particular
+	   evaluation rules.
+
+-> Function is represented by a procedure.
+
+-> We'll say the "procedure f" when we want to discuss the operation we're telling Scheme to carry out. We'll say "the function represented by f" when our attention is focussed on the value returned rather than the mechanism.
+
+-> The name for the name of an argument is formal parameter. In our square example x is the formal parameter. The technical term for the actual value of the argument is the actual argument. 
+
