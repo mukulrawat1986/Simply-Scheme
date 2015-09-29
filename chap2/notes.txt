@@ -1,0 +1,17 @@
+-> Here we introduce the building block of functional programming, the function
+
+-> Different functions can have different number of arguments, however, every function gives exactly same result each time we use it.
+
+-> The technical term for "a kind of data" is a type.
+
+-> The term for "the things that a function accepts as an argument"  is the domain of the function. The name for "the things that a function returns" is its range.
+
+-> Most languages make a sharp distinction between programs and data. The ability to treat functions as data helps make Scheme programming very powerful and convenient.
+
+-> Functions are important in computer science because they give us a way to think about process - in simple English, a way to think about something happening, something changing.  A function embodies a transformation of information, taking in something we know and returning something we didn't know. That's what computers do: They transform information to produce new results.
+
+-> Part of the definition of a function is that you always get the same answer whenever you call a function with the same argument(s). The value returned by a function shouldn't change regardless of anything else you may have computed meanwhile. 
+
+-> There are two different ways of thinking about functions. The first is called function as a process. Here, a function is a rule that tells us how to transform some information into some other information. The function is just a rule, not a thing in its own right. The actual "things" are the words or numbers or whatever the function manipulates. The second way of thinking is called function as object. In this view a function is a perfectly good "thing" in itself. We can use a function as an argument to another function. These are called Higher order functions (functions of functions).
+
+
