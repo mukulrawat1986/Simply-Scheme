@@ -1,0 +1,14 @@
+-> We study the building blocks of functional programming, functions in this chapter
+
+-> Each question we type in scheme is an expression. The expression can be single value or something more complicated in paranthesis.
+
+-> The first kind of expression is called an atom or atomic expression, while the second kind of expression is called a compound expression, because its made out of smaller expressions. We sometimes call the expression within a compound expression its subexpression.
+
+-> Compound expression tell Scheme to execute a procedure.
+
+-> Numbers are self evaluating, so when you evaluate a number, you just get the same number back.
+
+-> In Scheme every procedure call must be enclosed in paranthesis.
+
+ 
+
