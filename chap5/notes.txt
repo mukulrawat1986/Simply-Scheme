@@ -1,0 +1,14 @@
+-> Symbolic programming with Scheme
+
+-> Everything that you type into Scheme is evaluated and the resulting value is printed out.
+
+-> Lets say we have a proceudre square, if we give the word square to Scheme, it will return us that its a proceudre. But we may need to say that we want the word "square" itself rather than the value of that word as an expression. We do it by using quote.
+
+-> Quote is a special form, since its argument isn't evaluated. Instead it just returns the argument as is
+
+-> Selectors: When working with words and sentences, apart from just quoting them, we need a way to take them apart, and we need a way to put them together.
+
+-> If we are using selectors such as first, we need to quote its arguments if they are words
+
+-> The first of a sentence is a word, while the first of a word is a letter.
+Butfirst of a word is a word, and butfirst of a sentence is a sentence.
